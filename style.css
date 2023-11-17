@@ -1,0 +1,35 @@
+body{
+    background: grey;
+}
+.box{
+    text-align: center;
+    width: 100%;
+    max-width: 100vh;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 10px;
+}
+.input-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+}
+input{
+    border: none;
+    outline: none;
+    font-weight: 14px;
+    flex: 1;
+    background: transparent;
+}
+button{
+    border: none;
+    border-radius: 40px;
+    background: rgb(234, 57, 57);
+    cursor: pointer;
+    padding: 16px 50px;
+    font-weight: 15px;
+}
